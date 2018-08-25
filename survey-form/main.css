@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    background-color: #aaaaaa;
+}
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;       /* remove default arrow */
+    background-color: white;
+    /* background: url(assets/arrow.svg) 98% / 15% no-repeat; */
+    -ms-box-sizing:content-box; 
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
+ }
+
+ textarea {
+     resize: none;
+ }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 100px 50px 50px
+}
+
+.container {
+    margin: 30px auto auto auto;
+    padding: 20px 40px 20px 40px;
+    width: 600px;
+
+    background-color: #eeeeee;
+
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 2px #333333;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+.center {
+    margin: auto auto auto auto;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+
+    border-radius: 5px;
+    border-style: none;
+
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #ff8000;
+    color: white
+}
+
+
+.lbl {
+    margin: auto 0px auto 0px;;
+    font-size: 18px;
+}
+
+.lbl-small {
+
+}
+
+.inpt {
+    margin: 5px;
+    padding: 5px;
+
+    border-radius: 5px;
+    border-style: none;
+
+    font-size: 18px;
+}
+
+.select {
+
+}
+
+.title {
+    font-size: 24px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+
+.name-lbl-cell {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.name-inpt-cell {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.email-lbl-cell {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.email-inpt-cell {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.number-lbl-cell {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.number-inpt-cell {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.select-lbl-cell {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.select-inpt-cell {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.radio-lbl-cell {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.radio-inpt-cell {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.checkbox-lbl-cell {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.checkbox-inpt-cell {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.textarea-lbl-cell {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.textarea-inpt-cell {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.submit-btn-cell {
+    grid-column: 2;
+    grid-row: 8;
+}

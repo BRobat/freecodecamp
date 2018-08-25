@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <!-- title -->
+
+    <div class="container">
+        <h1 id="title" class="text text-center title">
+            Survey
+        </h1>
+        <!-- explanation -->
+        <p id="explanation" class="text text-center paragraph">
+            This is a short example of a survey-form made as a freecodecamp excercise. Can be used as a template for future projects.
+        </p>
+
+        <form id="survey-form">
+            <div class="grid-container">
+                <label id="name-label" class="text lbl name-lbl-cell">type name</label>
+                <input id="name" class="text inpt name-inpt-cell" type="text" placeholder="name">
+
+                <label id="email-label" class="text lbl email-lbl-cell">type email</label>
+                <input id="email" class="text inpt email-inpt-cell" type="email" placeholder="email">
+
+                <label id="number-label" class="text lbl number-lbl-cell">type number</label>
+                <input id="number" class="text inpt number-inpt-cell" type="number" placeholder="number" min="1" max="999999999">
+
+                <label class="text lbl select-lbl-cell">pick one</label>
+                <select id="dropdown" class="text inpt select-inpt-cell">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+                <label class="text lbl radio-lbl-cell">choose one</label>
+                <div class="text inpt radio-inpt-cell">
+                    <input type="radio" name="number"> one
+                    <input type="radio" name="number"> two
+                    <input type="radio" name="number"> three
+                </div>
+
+                <label class="text lbl checkbox-lbl-cell">choose</label>
+                <div class="text inpt checkbox-inpt-cell">
+                    <input type="checkbox" value="bike"> are there bikes?
+                    <input type="checkbox" value="car"> are there cars?
+                </div>
+
+                <label class="text lbl textarea-lbl-cell">say something more</label>
+                <input class="text inpt textarea-inpt-cell" type="textarea" placeholder="tell me something more..." max="140">
+
+                <button id="submit" class="text btn btn-primary center submit-btn-cell">Submit</button>
+
+            </div>
+        </form>
+    </div>
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
